@@ -1,0 +1,134 @@
+body {
+    /* display: flex; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+}
+
+.wrapper{
+    background-image: url('./assets/huluHomepageBackground.jpg');
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+}
+
+.main{
+    background-image: url('./assets/huluHomepageBackground.jpg');
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+
+}
+
+
+.nav{
+    text-align:right;
+    padding-right: 40px;
+    padding-top: 30px;
+    list-style-type: none;
+    flex: 1;
+    font-size: .8rem;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.jumbotron{
+    text-align: center;
+    margin-top: 80px;
+    vertical-align: middle;
+}
+
+h3 {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: .75rem;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    color: #2DBD9D;
+    vertical-align: middle;
+}
+
+
+.logo{
+    align-items: center;
+    height: 10%;
+}
+
+img{
+    align-items: center;
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+}
+
+h4 {
+    margin-top: 50px;
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: 1.5rem;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+h5{
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: .75rem;
+    font-weight: thin;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    color:white;
+}
+p{
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: .25rem;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+.ribbon{
+    background: linear-gradient(318.68deg,#0F495C 0%,#0D3640 49.72%,#08141F 100%);
+    width: 100%;
+    height: 80px;
+    padding-top: 28px;
+    padding-right: 10px;
+    padding-bottom: 28px;
+    padding-left: 20px;
+}
+
+.ribbonEyebrow{
+    font-size: 12px;
+    color:  #2DBD9D;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-bottom: 8px;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
+
+
+.ribbonInfo img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.ribbonInfo{
+    font-size: 14px;
+    line-height: 15px;
+    color: #fff;
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+}
